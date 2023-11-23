@@ -31,7 +31,7 @@ You can skip this step if you don't need Expression matrix.
 
 #### edit BASE CONFIG
 
-Edit BASE CONFIG file [TransAnnot.Config](), you can follow the example file in this directory.
+Edit BASE CONFIG file [TransAnnot.Config](https://github.com/captorr/TransAnnot/blob/master/demo/TransAnnot.Config), you can follow the example file in this directory.
 
 #### running by BASE CONFIG
 
@@ -61,7 +61,7 @@ This step is for multi-samples, you can skip this step if you have only one samp
 
 #### edit Merge.config
 
-edit [merge.config] file in format，see [merge.config]()
+edit [merge.config] file in format，see [merge.config](https://github.com/captorr/TransAnnot/blob/master/demo/merge.config)
 
 #### run TransAnnotMerge
 
