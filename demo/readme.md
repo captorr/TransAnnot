@@ -10,7 +10,7 @@
 
 #### generate fasta
 
-Here we generate two sets fasta to test the merge pipline, you can only generate only one if no required.
+Here we generate two sets fasta to test the merge pipline, you can generate only one if no required.
 	
 	# about 1min per set
 	cd /your_path/TransAnnot/LRSIM
