@@ -4,7 +4,7 @@ TransAnnot is a computational toolkit that provides a wide spectrum of tools for
 
 ## Environmental dependence
 
- * [HISAT2](https://github.com/DaehwanKimLab/hisat2)/[MINIMAP2](https://github.com/lh3/minimap2)/[GMAP](http://research-pub.gene.com/gmap/)中至少一款软件
+ * [HISAT2](https://github.com/DaehwanKimLab/hisat2)/[MINIMAP2](https://github.com/lh3/minimap2)/[GMAP](http://research-pub.gene.com/gmap/) at least one
  * samtools
  * python3
 
