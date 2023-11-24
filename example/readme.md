@@ -1,5 +1,7 @@
 ## EXAMPLE
 
+English | [中文文档](https://github.com/captorr/TransAnnot/blob/master/example/readme.cn.md)
+
 ### step1 generate simulate fasta
 
 #### make GTF_DB
