@@ -1,6 +1,13 @@
 # TransAnnot user manual
 
+English | [中文文档](https://github.com/captorr/TransAnnot/blob/master/README.cn.md)
+
 TransAnnot is a computational toolkit that provides a wide spectrum of tools for analyzing full-length transcriptome data. Based on its highly precise transcript alignment and junction prediction, TransAnnot enables accurate novel isoform, gene fusion detection, and expression quantification analyses
+
+
+## Install
+
+	git clone https://github.com/captorr/TransAnnot.git
 
 ## Environmental dependence
 
@@ -12,7 +19,7 @@ TransAnnot is a computational toolkit that provides a wide spectrum of tools for
 
 	python TransAnnot.py -f [fasta] -g [genome fasta] -o [output directory] -a [annot gtf] -p [process] --use_minimap2 1 --use_hisat2 [hisat2 index]
 
-## software running
+## Running
 
 1. The parameters required can be passed in three ways，with larger number having higher priority：
 
@@ -33,7 +40,7 @@ TransAnnot is a computational toolkit that provides a wide spectrum of tools for
 5. TransAnnot supports multi-samples analysis，which can be realized by running [TransAnnotMerge.py](). See the following for details.
 
 
-## running result
+## Result
 
 The output files contain the following files:
 
@@ -103,7 +110,7 @@ The output files contain the following files:
 
 We can use TransAnnotMerge to generate expression matrix of multi-samples
 
-## Usage of TransAnnotMerge
+### Usage of TransAnnotMerge
 
 `python TranAnnotMerge -c MergeConfig -o outputdir -m [TPM/FLC/None]`
 
@@ -130,7 +137,7 @@ We can use TransAnnotMerge to generate expression matrix of multi-samples
 * `transcript.exp`： the transcirpt expression matrix of each sample
 * `merge.db.pickle`： view transcirpt
 
-## the classfication of isoform annotated by TransAnnot
+## The classfication of isoform annotated by TransAnnot
 
 ### the classfication of transcript
 
