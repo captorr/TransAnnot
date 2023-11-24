@@ -1,4 +1,4 @@
-## DEMO
+## EXAMPLE
 
 ### step1 generate simulate fasta
 
