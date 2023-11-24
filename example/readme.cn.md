@@ -60,7 +60,7 @@
 
 #### 填写Merge.config
 
-按文件格式填写[merge.config]，见示例文件[merge.config](https://github.com/captorr/TransAnnot/blob/master/demo/merge.config)
+按文件格式填写[merge.config]，见示例文件[merge.config](https://github.com/captorr/TransAnnot/blob/master/example/merge.config)
 
 #### 运行TransAnnotMerge
 
