@@ -25,7 +25,7 @@ TransAnnot 是一款用于三代全长转录本测序结果注释的工具。
 	2. 参数 `-c [config]` 导入的临时配置文件
 	3. 命令行输入参数
 
-2. 首次运行先调整基础配置文件[TransAnnot.Config](https://gitee.com/captor1/TransAnnot/blob/master/TransAnnot.Config), 主要设置以后运行时不需要频繁改动的参数：
+2. 首次运行先调整基础配置文件[TransAnnot.Config](https://github.com/captorr/TransAnnot/blob/master/TransAnnot.Config), 主要设置以后运行时不需要频繁改动的参数：
 	* 相关软件的调用路径
 	* 默认使用的映射软件、映射软件的INDEX路径
 	* 参考基因组(FASTA)、参考基因组注释文件（GTF）、默认PROCESS数
@@ -36,9 +36,13 @@ TransAnnot 是一款用于三代全长转录本测序结果注释的工具。
 
 5. 软件支持多样本的联合分析\表达量统计，可通过单独运行[TransAnnotMerge.py]()实现，具体操作说明见后续。
 
+## 示例
+
+这里提供一个[流程示例](https://github.com/captorr/TransAnnot/tree/master/example)
+
 ## 运行结果
 
-如未改动基础配置文件[TransAnnot.Config](https://gitee.com/captor1/TransAnnot/blob/master/TransAnnot.Config)中的后缀参数，输出结果将有：
+如未改动基础配置文件[TransAnnot.Config](https://github.com/captorr/TransAnnot/blob/master/TransAnnot.Config)中的后缀参数，输出结果将有：
 
 * `{sample_id}.annot.bed` 所有reads的bed格式结果
 
@@ -195,8 +199,8 @@ LRSIM (Long Reads SIMulation), 用于模拟生成全长转录本,可批量生成
 ### TransAnnotViewer
 
 基于TransAnnot结果的可视化工具，windows桌面端, 可对结果绘图
-![transannotviewer](https://gitee.com/captor1/TransAnnot/raw/master/static/transannotviewer.png)
-![transannotviewer](https://gitee.com/captor1/TransAnnot/raw/master/static/ARH.png)
+![transannotviewer](https://github.com/captorr/TransAnnot/raw/master/static/transannotviewer.png)
+![transannotviewer](https://github.com/captorr/TransAnnot/raw/master/static/ARH.png)
 
 ### TransAnnotReport
 

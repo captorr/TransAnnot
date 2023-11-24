@@ -39,6 +39,9 @@ TransAnnot is a computational toolkit that provides a wide spectrum of tools for
 
 5. TransAnnot supports multi-samples analysis，which can be realized by running [TransAnnotMerge.py](). See the following for details.
 
+## Example
+
+You can follow an example [here](https://github.com/captorr/TransAnnot/tree/master/example)
 
 ## Result
 
