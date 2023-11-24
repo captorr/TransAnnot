@@ -1,6 +1,6 @@
 # TransAnnot 使用手册
 
-[English](https://github.com/captorr/TransAnnot/blob/master/README.md) | 中文文档
+[English](https://github.com/captorr/TransAnnot/blob/master/README.md) | 中文文档 | [gitee](https://gitee.com/captor1/TransAnnot)
 
 TransAnnot 是一款用于三代全长转录本测序结果注释的工具。
 

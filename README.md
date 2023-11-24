@@ -1,6 +1,6 @@
 # TransAnnot user manual
 
-English | [中文文档](https://github.com/captorr/TransAnnot/blob/master/README.cn.md)
+English | [中文文档](https://github.com/captorr/TransAnnot/blob/master/README.cn.md) | [gitee](https://gitee.com/captor1/TransAnnot)
 
 TransAnnot is a computational toolkit that provides a wide spectrum of tools for analyzing full-length transcriptome data. Based on its highly precise transcript alignment and junction prediction, TransAnnot enables accurate novel isoform, gene fusion detection, and expression quantification analyses
 
