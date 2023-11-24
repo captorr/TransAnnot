@@ -1,5 +1,7 @@
 ## TransAnnotViewer
 
+English | [中文文档](https://github.com/captorr/TransAnnot/blob/master/TransAnnotViewer/readme.cn.md)
+
 ### running
 
 	python TransAnnotViewer.py -i merge.db.pickle
